@@ -1,0 +1,14 @@
+Run this code with python3, to install and run use the following commands:
+pip3 install -r requirements.txt
+python3 fibonacci.py
+
+
+Note: change the value stored inside [processing].[digits] in the config.ini file in order
+to test different scenarios
+
+
+At the end you will get a chart that will show you the distribution of the needed time in after each step
+and the  over all consumed time like:
+
+index:  4782  - digits:  1000
+Fibonacci index search took 2661.959 ms
