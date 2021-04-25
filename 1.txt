@@ -7,8 +7,16 @@ Note: change the value stored inside [processing].[digits] in the config.ini fil
 to test different scenarios
 
 
-At the end you will get a chart that will show you the distribution of the needed time in after each step
-and the  over all consumed time like:
+At the end you will get a chart that will show you the distribution of the needed time after each step
+and the over all consumed time like:
 
 index:  4782  - digits:  1000
 Fibonacci index search took 2661.959 ms
+
+
+[Please take note]: I've tried other 2 algorithms and in terms of performance the one implemented in the
+fibonaci.py file is the best
+
+1) recursion +memorization [the best one and the one I've implemented]
+2) Swap variables method [not good enough for high numbers of digits] but better than -3
+3) recursion without memorization [very slow]
